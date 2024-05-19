@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Nov 05 16:01:14 2020
+[*]
+[dumpfile] "C:\Users\Demian\Documents\universidad\sistemas digitales\lab\ARCHIVO.vcd"
+[dumpfile_mtime] "Thu Nov 05 15:54:41 2020"
+[dumpfile_size] 745
+[savefile] "C:\Users\Demian\Documents\universidad\sistemas digitales\lab\lab1-2.1.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-14.947450 41000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] comparadores_tb.
+[sst_width] 197
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@24
+[color] 1
+comparadores_tb.aa[4:0]
+comparadores_tb.bb[4:0]
+@200
+-
+@c00029
+[color] 1
+comparadores_tb.aa[4:0]
+@28
+(0)comparadores_tb.aa[4:0]
+(1)comparadores_tb.aa[4:0]
+(2)comparadores_tb.aa[4:0]
+(3)comparadores_tb.aa[4:0]
+(4)comparadores_tb.aa[4:0]
+@1401201
+-group_end
+@c00028
+comparadores_tb.bb[4:0]
+@28
+(0)comparadores_tb.bb[4:0]
+(1)comparadores_tb.bb[4:0]
+(2)comparadores_tb.bb[4:0]
+(3)comparadores_tb.bb[4:0]
+(4)comparadores_tb.bb[4:0]
+@1401208
+-group_end
+@200
+-
+-salidas
+@28
+[color] 2
+comparadores_tb.Aes_mayor
+[color] 2
+comparadores_tb.son_iguales
+[color] 2
+comparadores_tb.Aes_menor
+[pattern_trace] 1
+[pattern_trace] 0

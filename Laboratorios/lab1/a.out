@@ -1,0 +1,40 @@
+#! /usr/local/iverilog/bin/vvp
+:ivl_version "11.0 (devel)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "D:\iverilog\lib\ivl\system.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "D:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "D:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "D:\iverilog\lib\ivl\va_math.vpi";
+S_0000000000f65960 .scope module, "comparadores_labsland" "comparadores_labsland" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 10 "SW";
+    .port_info 1 /OUTPUT 3 "LEDR";
+v0000000000f65d20_0 .net "LEDR", 2 0, L_0000000000f62a00;  1 drivers
+o0000000000f671b8 .functor BUFZ 10, C4<zzzzzzzzzz>; HiZ drive
+v00000000010cba10_0 .net "SW", 9 0, o0000000000f671b8;  0 drivers
+L_00000000010cbc90 .part o0000000000f671b8, 0, 5;
+L_00000000010cbdc0 .part o0000000000f671b8, 5, 5;
+L_0000000000f62a00 .concat8 [ 1 1 1 0], L_00000000010cbb50, L_00000000010cbbf0, L_00000000010cbab0;
+S_0000000000f65af0 .scope module, "DUT" "comparadores" 2 9, 3 1 0, S_0000000000f65960;
+ .timescale 0 0;
+    .port_info 0 /INPUT 5 "A";
+    .port_info 1 /INPUT 5 "B";
+    .port_info 2 /OUTPUT 1 "AmayorB";
+    .port_info 3 /OUTPUT 1 "AmenorB";
+    .port_info 4 /OUTPUT 1 "AigualB";
+v00000000010c8d30_0 .net "A", 4 0, L_00000000010cbc90;  1 drivers
+v00000000010c64c0_0 .net "AigualB", 0 0, L_00000000010cbbf0;  1 drivers
+v00000000010c8a70_0 .net "AmayorB", 0 0, L_00000000010cbab0;  1 drivers
+v00000000010c7fa0_0 .net "AmenorB", 0 0, L_00000000010cbb50;  1 drivers
+v0000000000f65c80_0 .net "B", 4 0, L_00000000010cbdc0;  1 drivers
+L_00000000010cbab0 .cmp/gt 5, L_00000000010cbc90, L_00000000010cbdc0;
+L_00000000010cbb50 .cmp/gt 5, L_00000000010cbdc0, L_00000000010cbc90;
+L_00000000010cbbf0 .cmp/eq 5, L_00000000010cbc90, L_00000000010cbdc0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "comparadores_labsland.v";
+    "comparadores.v";

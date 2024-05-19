@@ -1,0 +1,59 @@
+$date
+	Thu Nov 05 10:54:41 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module comparadores_tb $end
+$var wire 1 ! son_iguales $end
+$var wire 1 " Aes_menor $end
+$var wire 1 # Aes_mayor $end
+$var reg 5 $ aa [4:0] $end
+$var reg 5 % bb [4:0] $end
+$scope module DUT $end
+$var wire 5 & A [4:0] $end
+$var wire 5 ' B [4:0] $end
+$var wire 1 " AmenorB $end
+$var wire 1 # AmayorB $end
+$var wire 1 ! AigualB $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 '
+b100 &
+b1 %
+b100 $
+1#
+0"
+0!
+$end
+#2000
+b11 %
+b11 '
+b1001 $
+b1001 &
+#4000
+0#
+1!
+b1101 %
+b1101 '
+b1101 $
+b1101 &
+#6000
+b10010 %
+b10010 '
+1"
+0!
+b101 $
+b101 &
+#8000
+b1101 %
+b1101 '
+b1 $
+b1 &
+#10000

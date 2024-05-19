@@ -1,0 +1,36 @@
+$date
+	Fri Nov 13 16:29:06 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module primera_funcion_tb $end
+$var wire 1 ! outF $end
+$var reg 1 " inA $end
+$var reg 1 # inB $end
+$scope module ejemplo_funcion $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 ! F $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0"
+1!
+$end
+#2000
+1#
+#4000
+0!
+0#
+1"
+#6000
+1!
+1#
+#8000
