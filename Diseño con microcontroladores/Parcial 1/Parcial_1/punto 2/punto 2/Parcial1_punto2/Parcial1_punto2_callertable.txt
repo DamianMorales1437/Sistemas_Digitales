@@ -1,0 +1,26 @@
+main
+	__CC2DW
+	Sound_Init
+	Button
+		Delay_500us
+	VerDisplay1
+		VDelay_ms
+			Mul_32x32_U
+	rand
+		srand
+		Mul_32x32_U
+	Div_16x16_S
+		Div_16x16_S_L
+	VerDisplay_digitos
+		Div_16x16_S
+			Div_16x16_S_L
+		Mul_16X16_U
+		Div_16X16_U
+		VDelay_ms
+			Mul_32x32_U
+		Sound_Play
+			Get_Fosc_kHz
+			Mul_32x32_U
+			Div_32x32_U
+			Div_16X16_U
+			Delay_Cyc
