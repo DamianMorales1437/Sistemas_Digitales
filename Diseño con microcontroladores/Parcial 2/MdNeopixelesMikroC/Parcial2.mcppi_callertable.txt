@@ -1,0 +1,9 @@
+main
+	E3Tlogo
+		white
+			one
+		black
+			zero
+		yellow
+			one
+			zero

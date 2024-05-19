@@ -1,0 +1,12 @@
+main
+	yoshi
+		white
+			one
+		black
+			zero
+		green
+			one
+			zero
+		greend
+			zero
+			one
