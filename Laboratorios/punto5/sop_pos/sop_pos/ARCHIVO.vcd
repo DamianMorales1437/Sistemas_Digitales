@@ -1,0 +1,77 @@
+$date
+	Sun Nov 22 17:07:49 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module punto5_pos_sop_tb $end
+$var wire 1 ! outFsop $end
+$var wire 1 " outFsimp $end
+$var wire 1 # outFpos $end
+$var wire 1 $ outFcase $end
+$var reg 1 % inA $end
+$var reg 1 & inB $end
+$var reg 1 ' inC $end
+$scope module EJR $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 ' C $end
+$var wire 1 # Fpos $end
+$var wire 1 " Fsimp $end
+$var wire 1 ! Fsop $end
+$var reg 1 $ Fcase $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#2000
+1#
+1!
+1"
+1$
+1'
+#4000
+0#
+0!
+0"
+0$
+0'
+1&
+#6000
+1'
+#8000
+1!
+1"
+1#
+1$
+0'
+0&
+1%
+#10000
+1'
+#12000
+0#
+0"
+0!
+0$
+0'
+1&
+#14000
+1"
+1#
+1!
+1$
+1'
+#16000
