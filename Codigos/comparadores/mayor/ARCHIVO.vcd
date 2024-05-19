@@ -1,0 +1,68 @@
+$date
+	Sun Jan 17 15:37:45 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module estimulos_mayor $end
+$var wire 1 ! F $end
+$var reg 3 " A [2:0] $end
+$var reg 3 # B [2:0] $end
+$scope module S1 $end
+$var wire 3 $ A [2:0] $end
+$var wire 3 % B [2:0] $end
+$var wire 1 ! F $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 %
+b0 $
+b1 #
+b0 "
+0!
+$end
+#2000
+1!
+b0 #
+b0 %
+b1 "
+b1 $
+#4000
+0!
+b11 #
+b11 %
+b10 "
+b10 $
+#6000
+1!
+b10 #
+b10 %
+b11 "
+b11 $
+#8000
+0!
+b100 #
+b100 %
+b100 "
+b100 $
+#10000
+b101 #
+b101 %
+0!
+b101 "
+b101 $
+#12000
+b100 "
+b100 $
+#14000
+1!
+b0 #
+b0 %
+b11 "
+b11 $
+#16000
