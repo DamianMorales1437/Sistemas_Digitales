@@ -1,0 +1,14 @@
+main
+	SPI1_Init
+	MAX7219_init_1
+		SPI1_Init
+		MAX7219_write_1
+			SPI1_Write
+	Max7219DisplayOn_1
+		SPI1_Write
+	Max7219Print_1
+		SPI1_Write
+		Div_32x32_U
+	Max7219Print_2
+		SPI1_Write
+		Div_32x32_U
