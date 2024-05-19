@@ -1,0 +1,42 @@
+$date
+	Tue Aug 01 11:25:18 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module estimulos_sum4bits $end
+$var wire 4 ! F [3:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$scope module U0 $end
+$var wire 4 $ A [3:0] $end
+$var wire 4 % B [3:0] $end
+$var reg 4 & F [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 &
+b1000 %
+b11 $
+b1000 #
+b11 "
+b1011 !
+$end
+#50000
+b1100 !
+b1100 &
+b1001 #
+b1001 %
+#100000
+b1011 !
+b1011 &
+b100 #
+b100 %
+b111 "
+b111 $
+#150000
