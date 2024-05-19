@@ -1,0 +1,64 @@
+$date
+	Sun Apr 25 14:31:43 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module EF1_tb $end
+$var wire 10 ! LEDR [9:0] $end
+$var reg 2 " KEY [2:1] $end
+$var reg 3 # SW [0:2] $end
+$scope module EJR $end
+$var wire 2 $ KEY [2:1] $end
+$var wire 3 % SW [0:2] $end
+$var wire 10 & LEDR [9:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#2000
+b10000000 !
+b10000000 &
+b1 #
+b1 %
+#4000
+b100000000 !
+b100000000 &
+b10 #
+b10 %
+#6000
+b1000000000 !
+b1000000000 &
+b100 #
+b100 %
+#8000
+b1 "
+b1 $
+b1 !
+b1 &
+b0 #
+b0 %
+#10000
+b10 !
+b10 &
+b10 "
+b10 $
+#12000
+b11 "
+b11 $
+b1110000011 !
+b1110000011 &
+b111 #
+b111 %
+#14000
